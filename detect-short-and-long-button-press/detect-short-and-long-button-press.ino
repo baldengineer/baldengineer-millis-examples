@@ -1,8 +1,3 @@
-// detectButtonPress
-// Use millis to detect a short and long button press
-// See baldengineer.com/detect-short-long-button-press-using-millis.html for more information
-// Created by James Lewis
-
 #define PRESSED LOW
 #define NOT_PRESSED HIGH
 
@@ -94,3 +89,9 @@ void blinkLED() {
 	}
 	digitalWrite(led, ledState);
 }
+
+
+// detectButtonPress
+// Use millis to detect a short and long button press
+// More Information: baldengineer.com/detect-short-long-button-press-using-millis.html
+// Created by James Lewis
